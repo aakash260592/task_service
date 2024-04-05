@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: task
+  #Fetch the Data From Git Hub Server
+  config:
+    import: configserver:http://localhost:9095/
